@@ -1,0 +1,415 @@
+html {
+    scroll-behavior: smooth; /* Плавная прокрутка */
+}
+
+.hidden {
+            display: none;
+        }
+        
+        
+         #total-price {
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: 'tt berlinerins', sans-serif;
+        }
+        
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        input[type="number"],
+        textarea{
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #ccc;
+            font-family: 'tt berlinerins', sans-serif;
+            resize: vertical;
+        }
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        label {
+            display: block;
+            margin: 10px 0;
+
+        }
+        .quantity-field {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        
+body {
+    width: 85%;
+    margin: auto;
+    padding: 10px 0;
+    background-color: #5e5e5e;
+    padding-top: 6.5rem;
+}
+header {
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000; 
+    background-color: #c5c5c5; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8); /* Тень для лучшей видимости */
+}
+
+.txt {
+    margin: auto;
+    padding: 20px 0;
+    width: 80%;
+}
+
+a, p, label{
+    text-decoration: none;
+    font-family: 'tt berlinerins', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    user-select: none;
+}
+
+    footer, .blok {
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c5c5c5;
+    margin-bottom: 10px;
+}
+
+.headerleft, .headerright {
+    display: flex; 
+    align-items: center; 
+    padding: 1rem;
+}
+
+.headerright a {
+    margin-right: 1rem; 
+}
+
+.logo {
+    width: 65px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.logo img {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+.sitename {
+    margin-left: 2rem; 
+    font-size: 1.3rem;
+}
+
+.btnzakaz {
+    display: inline-block;
+}
+
+.btnzakaz a {
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    color: black; 
+    border: 2px solid black;
+    text-decoration: none;
+   
+}
+
+.btnzakaz a:hover {
+    transition: background-color 0.3s, color 0.3s; 
+     background-color: transparent;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    outline: none;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e63a23;
+}
+
+.btnsubmit {
+    display: inline-block;
+    margin-right: auto;
+    width: 30%;
+    font-family: 'tt berlinerins', sans-serif;
+    font-size: 1.2rem;
+    color: black; 
+    border: 2px solid black;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; 
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btnsubmit:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+header a {
+    display: inline-block;
+}
+
+header a:hover {
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5); 
+}
+
+footer p {
+    margin: 1rem auto;
+}
+
+.but{
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    width: 100%;
+    max-width: 80%;
+    border-collapse: collapse;
+    font-family: 'tt berlinerins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #ddd;
+    user-select: none;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+th {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    font-weight: bold;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+table td, table th {
+    transition: all 0.3s;
+}
+
+.contacts {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.contacts-row {
+    display: flex;
+}
+
+.contacts-item {
+    flex: 1;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contacts-item p {
+    margin: 0;
+}
+
+.contacts-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.contacts-item a:hover {
+    color: #e63a23;
+}
+
+.btnzak{
+    display: inline-block;
+    width:40%;
+    margin: auto;
+    font-family: 'tt berlinerins', sans-serif;
+    font-size: 1.2rem;
+    color: black; 
+    border: 2px solid black;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; 
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btnzak:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+[id] {
+    scroll-margin-top: 7rem; /* Отступ сверху, равный высоте header */
+}
+
+
+/* Media Queries for responsiveness */
+@media (min-width: 550px) and (max-width: 768px) {
+    body{
+           padding-top: 3.5rem;
+    }
+   
+    .logo{
+        width: auto;
+        height: 33px;
+        padding-left: 5px;
+        
+    }
+    /* Растяжение текста и таблиц на всю доступную ширину */
+   .txt, table, label, p, .btnzak, .btnsubmit {
+    width: 95%;
+    font-size: 0.9rem;
+}
+
+.numb{
+    font-size: 1rem;
+}
+   
+    /* Уменьшение отступов у элементов шапки */
+    .headerright a {
+        margin-right: 0.5rem;
+        font-size: 0.8rem;
+    }
+    
+    .sitename{
+        margin-left: 2rem;
+    }
+    
+    .headerleft a{
+        margin-right: 0.5rem;
+        font-size: 0.8rem;
+    }
+    
+    /* Уменьшение отступов в шапке */
+    .headerleft, .headerright {
+        padding: 0.5rem;
+    }
+     
+     footer{
+         text-align:center;
+     }
+    /* Растяжение кнопки отправки формы на половину доступной ширины */
+    .btnsubmit{
+        width: 100%;
+    }
+    
+    .btnzak{
+        width:49%;
+        margin: auto;
+    }
+    
+     input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        input[type="number"],
+        textarea{
+            width: 93%;
+        }
+    
+}
+
+@media (max-width: 550px) {
+    /* Дополнительные стили для мобильных устройств */
+input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        input[type="number"],
+        textarea{
+            width: 95%;
+        }
+
+    /* Уменьшение ширины тела */
+    body {
+        width: 97%;
+          padding-top: 3rem;
+    }
+header{
+    width:97%;
+}
+
+.numb{
+    font-size: 1rem;
+}
+    .abou{
+        display:none;
+    }
+    .btnsubmit{
+        width: 100%;
+        font-size:0.7rem;
+    }
+    .sitename {
+    margin-left: 0.5rem;
+    }
+    /* Уменьшение размера логотипа */
+    .logo {
+        width: 3rem;
+        height: 3rem;
+        display:none;
+    }
+
+    /* Уменьшение размера названия сайта */
+     .txt, table, ol, li p, p, label{
+        font-size: 0.7rem;
+    }
+    
+    .txt{
+        width: 95%;
+    }
+   
+    /* Уменьшение отступов у элементов шапки */
+    .headerright a {
+        margin-right: 0.5rem;
+        font-size: 0.7rem;
+    }
+    
+    .headerleft a{
+        font-size: 0.7rem;
+    }
+    
+    /* Уменьшение отступов в шапке */
+    .headerleft, .headerright {
+        padding: 0.5rem 0;
+    }
+    
+    .btnsubmit{
+        width: 100%;
+    }
+    .btnzak{
+        width:43%;
+        margin: auto;
+        font-size:0.7rem;
+    }
+    
+}
